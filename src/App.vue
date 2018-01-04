@@ -59,18 +59,18 @@
 import Firebase from "firebase";
 
 let config = {
-  apiKey: "AIzaSyCMtyxB1D9mlZP-Nw4w0o5pUYg5VgYa2NQ",
-  authDomain: "gcdrinksapp.firebaseapp.com",
-  databaseURL: "https://gcdrinksapp.firebaseio.com",
-  projectId: "gcdrinksapp",
-  storageBucket: "",
-  messagingSenderId: "479063460151"
+  apiKey: "AIzaSyBQVOIY2XpXE2iLeiOtOnjb4KRIb5zudcI",
+  authDomain: "gc-chatbot.firebaseapp.com",
+  databaseURL: "https://gc-chatbot.firebaseio.com",
+  projectId: "gc-chatbot",
+  storageBucket: "gc-chatbot.appspot.com",
+  messagingSenderId: "911499881314"
 };
 
 let app = Firebase.initializeApp(config);
 let db = app.database();
 
-let dbRef = db.ref("drinks");
+let dbRef = db.ref("members");
 
 export default {
   name: "app",
